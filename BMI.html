@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính chỉ số cân nặng</title>
+</head>
+<body>
+<form action="">
+    <fieldset>
+        <legend>BMI CALCULATOR</legend>
+        <table>
+            <tr>
+                <th style="font-weight: bold;">Height(Meters)</th>
+                <th style="font-weight: bold">Weight(Kg)</th>
+            </tr>
+            <tr>
+                <td><input type="number" id="height"></td>
+                <td><input type="number" id="weight"></td>
+                <td>
+                    <button type="button" onclick="Calculate();">Calculate</button>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <p>You are: <span id="result"></span></p>
+                </td>
+            </tr>
+        </table>
+    </fieldset>
+    <script src="script.js"></script>
+</body>
+</html>
